@@ -1,0 +1,24 @@
+.navbar {
+  // .navbar-toggler {
+  //   color: $white;
+
+  // }
+
+  .navbar-brand {
+    color: $white;
+  }
+  .nav-link {
+    color: $white !important;
+  }
+  .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.bg-dark {
+  background-color: $prussian_blue !important;
+}
+.navbar-dark {
+  background-color: $prussian_blue !important;
+}

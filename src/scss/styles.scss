@@ -1,0 +1,31 @@
+// IMPORT GOOGLE FONT
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,400;1,600&display=swap");
+
+//  IMPORT CUSTOM FILE
+
+@import "./custom";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $font_family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// IMPORT COMPONET PARTIAL FILES
+
+@import "./component/layout";
+@import "./component/navbar";
+@import "./component/footer";
+@import "./component/products";
+
+//  IMPORT PAGES PARTIAL FILES
+
+@import "./pages/auth";

@@ -1,0 +1,46 @@
+.form-control {
+  box-shadow: none;
+}
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+input {
+  margin-top: 1rem;
+}
+
+.register-form {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1.3rem;
+  background-color: $white;
+  z-index: 2;
+  position: relative;
+}
+
+.register-parent {
+  min-height: 100vh;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.register-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+
+  background-color: $prussian_blue;
+}
+.login-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: $prussian_blue;
+}
+
+a {
+  text-decoration: none;
+}
